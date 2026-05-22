@@ -264,7 +264,7 @@ section {
   display: block;
 
   /* Zooms the image in so it fills the circle better */
-  transform: scale(1.7);
+  transform: scale(1.7) !important;
 }
 
 .about-card h3 {
