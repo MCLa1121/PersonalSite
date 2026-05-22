@@ -14,16 +14,8 @@ html {
 }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
-  background:
-    radial-gradient(circle at top left, rgba(178, 103, 28, 0.25), transparent 35%),
-    radial-gradient(circle at top right, rgba(70, 90, 58, 0.18), transparent 30%),
-    #0d0b08;
-  color: #f1dfb7;
-  line-height: 1.6;
-
   /* Custom sword cursor */
-  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath d='M22 2L30 2L30 10L12 28L4 28L4 20Z' fill='%23c28a35' stroke='%23090705' stroke-width='2'/%3E%3Cpath d='M17 17L24 24' stroke='%23f5dfaa' stroke-width='3'/%3E%3Cpath d='M10 22L14 26' stroke='%23090705' stroke-width='2'/%3E%3C/svg%3E") 4 4, auto;
+  cursor: url("cursor/Dark\ souls\ 3.cur") 4 4, auto;
 }
 
 /* Reusable container */
@@ -84,7 +76,7 @@ button,
 .project-card,
 .interest-card,
 .skill-card {
-  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath d='M6 3L24 16L15 18L12 28Z' fill='%23f5dfaa' stroke='%23c28a35' stroke-width='2'/%3E%3C/svg%3E") 6 3, pointer;
+  cursor: url("cursor/Darksign\ \(Link\).cur") 6 3, pointer;
 }
 
 /* Hero section: cinematic tavern style */
