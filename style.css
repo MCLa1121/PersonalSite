@@ -252,19 +252,16 @@ section {
   height: 198px;
   border-radius: 50%;
   overflow: hidden;
-  border: 4px solid #f1dfb7;
-  box-shadow: 0 0 34px rgba(194, 138, 53, 0.35);
 }
 
-.profile-img {
+.profile-circle .profile-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
   display: block;
-
-  /* Zooms the image in so it fills the circle better */
-  transform: scale(1.7) !important;
+  transform: scale(2.2) !important;
+  transform-origin: center center;
 }
 
 .about-card h3 {
