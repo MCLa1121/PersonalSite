@@ -1,3 +1,7 @@
+/* style.css contains the full visual styling for Eric Wu's portfolio.
+   This file defines the page structure, hero section, cards, typography,
+   hover effects, and mobile responsive layout loaded from index.html. */
+
 /* Reset default browser spacing */
 * {
   margin: 0;
